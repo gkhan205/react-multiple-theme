@@ -79,8 +79,7 @@ To get a local copy up and running, follow these steps:
 
 ```
 react-multiple-themes
-├── public
-│   ├── index.html
+├── index.html
 ├── src
 │   ├── App.tsx
 │   ├── ThemeContext.tsx
