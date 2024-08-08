@@ -1,30 +1,94 @@
-# React + TypeScript + Vite
+# Multiple Themes in ReactJS | CSS Variables
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the React Multiple Themes App project! This project demonstrates how to implement multiple themes in a React application using CSS variables and context API. The app allows users to switch between different themes, including light, dark, blue, red, orange, and purple.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Demo](#demo)
+- [Step By Step Tutorial](#tutorial)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Check out the live demo of the app [here](https://gkhan205.github.io/react-multiple-theme/).
 
-- Configure the top-level `parserOptions` property like this:
+## Tutorial
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+[Click on Thumbnail to Watch on Youtube](https://youtu.be/ggdtgrzMK8A)
+
+[<img alt="Watch the video" height="315" src="https://img.youtube.com/vi/ggdtgrzMK8A/hqdefault.jpg" width="560"/>](https://youtu.be/ggdtgrzMK8A)
+
+## Features
+
+- Switch between multiple themes: Light, Dark, Blue, Red, Orange, Purple
+- Dynamic theming using CSS variables
+- User-friendly interface for theme selection
+- Themed HTML elements including buttons, paragraphs, lists, and cards
+
+## Installation
+
+To get a local copy up and running, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/gkhan205/react-multiple-theme.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd react-multiple-themes
+   ```
+
+3. **Install the dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. **Start the development server:**
+
+   ```bash
+   npm start
+   ```
+
+2. **Open your browser and navigate to:**
+
+   ```
+   http://localhost:3000
+   ```
+
+3. **Use the theme buttons to switch between different themes and see the changes in real-time.**
+
+## Technologies Used
+
+- React
+- CSS Variables
+- Context API
+- JavaScript
+- HTML
+- CSS
+
+## Project Structure
+
+```
+react-multiple-themes
+├── public
+│   ├── index.html
+├── src
+│   ├── App.tsx
+│   ├── ThemeContext.tsx
+│   ├── themes.css
+│   ├── index.css
+│   ├── main.tsx
+├── package.json
+└── README.md
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+

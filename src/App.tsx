@@ -3,8 +3,6 @@ import { useTheme } from "./ThemeProvider.tsx";
 function App() {
   const { theme, onThemeChange } = useTheme();
 
-  console.log(theme);
-
   return (
     <div className={theme}>
       <div className="app-container">
